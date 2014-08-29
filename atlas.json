@@ -1,7 +1,8 @@
 {
   "branch": "master",
   "files": [
-    "markdown-example.md"
+    "markdown-example.md",
+    "htmlbook-example.html"
   ],
   "formats": {
     "pdf": {
@@ -31,15 +32,15 @@
       "show_comments": false,
       "consolidate": false,
       "javascripts": [
-         "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js",
-         "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.4.0/codemirror.min.js",
-         "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/mode/clike/clike.min.js",
-         "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js",
-         "https://d2uogd9jz9k9zm.cloudfront.net/p5-0.0.1.min.js"
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.4.0/codemirror.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/mode/clike/clike.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js",
+        "https://d2uogd9jz9k9zm.cloudfront.net/p5-0.0.1.min.js"
       ],
       "stylesheets": [
-         "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.4.0/codemirror.min.css",
-         "https://d2uogd9jz9k9zm.cloudfront.net/p5-0.0.1.css"
+        "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.4.0/codemirror.min.css",
+        "https://d2uogd9jz9k9zm.cloudfront.net/p5-0.0.1.css"
       ]
     }
   },
