@@ -2,7 +2,7 @@
 
 This chapter was written in [Markdown](http://daringfireball.net/projects/markdown/).  In your editor, type the following:
 
-<pre data-code-language="p5js" id="mycode">
+<pre data-executable="true" data-code-language="p5js" id="mycode">
 function setup() {
   createCanvas(640, 480);
 }
