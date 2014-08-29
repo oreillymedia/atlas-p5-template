@@ -1,0 +1,48 @@
+{
+  "branch": "master",
+  "files": [
+    "markdown-example.md"
+  ],
+  "formats": {
+    "pdf": {
+      "version": "web",
+      "index": true,
+      "toc": true,
+      "syntaxhighlighting": false,
+      "show_comments": false
+    },
+    "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false,
+      "syntaxhighlighting": false,
+      "show_comments": false
+    },
+    "mobi": {
+      "index": false,
+      "toc": false,
+      "syntaxhighlighting": false,
+      "show_comments": false
+    },
+    "html": {
+      "index": false,
+      "toc": true,
+      "syntaxhighlighting": false,
+      "show_comments": false,
+      "consolidate": false,
+      "javascripts": [
+         "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+         "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.4.0/codemirror.min.js",
+         "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/mode/clike/clike.min.js",
+         "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js",
+         "https://d2uogd9jz9k9zm.cloudfront.net/p5-0.0.1.min.js"
+      ],
+      "stylesheets": [
+         "https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.4.0/codemirror.min.css",
+         "https://d2uogd9jz9k9zm.cloudfront.net/p5-0.0.1.css"
+      ]
+    }
+  },
+  "theme": "oreillymedia/clean_theme",
+  "title": "P5 Template",
+}
