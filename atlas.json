@@ -1,6 +1,7 @@
 {
   "branch": "master",
   "files": [
+    "README.md",
     "markdown-example.md",
     "htmlbook-example.html"
   ],
