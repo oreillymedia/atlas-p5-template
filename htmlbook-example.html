@@ -1,5 +1,23 @@
 <section data-type="chapter">
-<h1>This Is a Heading</h1>
+<h1>An HTMLBook Example</h1>
 
-<p>This is some text.</p>
+<p>This is an example in <a href="http://oreillymedia.github.io/HTMLBook/">HTMLBook</a>. &nbsp;In your editor, type the following:</p>
+
+<pre data-code-language="p5" data-executable="true" data-type="programlisting">
+function setup() {
+&nbsp; createCanvas(640, 480);
+}
+
+function draw() {
+&nbsp; if (mouseIsPressed) {
+&nbsp; &nbsp; fill(0);
+&nbsp; } else {
+&nbsp; &nbsp; fill(255);
+&nbsp; }
+&nbsp; ellipse(mouseX, mouseY, 80, 80);
+}
+</pre>
+This program creates a window that is 640 pixels wide and 480 pixels high, and then starts drawing white circles at the position of the mouse. When a mouse button is pressed, the circle color changes to black. We&rsquo;ll explain more about the elements of this program in detail later. For now, run the code, move the mouse, and click to experience it.
+
+<p>&nbsp;</p>
 </section>
