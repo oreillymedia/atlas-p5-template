@@ -1,3 +1,5 @@
+# Using p5 with Atlas
+
 This is an simple template for using [p5](http://p5js.org) with Atlas.  It will turn code listings you mark as "executable" into editable,runnable examples in the HTML build.  For example, this:
 
 ```html
