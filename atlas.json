@@ -44,5 +44,6 @@
     }
   },
   "theme": "oreillymedia/clean_theme",
-  "title": "P5 Template"
+  "title": "P5 Template",
+  "github_url": "https://github.com/oreillymedia/atlas-p5-template"
 }
